@@ -36,7 +36,7 @@ python3 countdowns.py
 The Python script will prompt you to enter an arbitrary integer value to test the countdown function. For example:
 
 ```
-Enter an arbitary integer value to test the program = 1000000
+Enter an arbitary integer value to test the program = 10000000
 ```
 
 The script will then call the C function and Python function, timing their execution and printing the results.
@@ -46,10 +46,10 @@ The script will then call the C function and Python function, timing their execu
 After entering an integer, you should see output similar to the following:
 
 ```
+This took 0.000005 seconds to compile in C 
 This took 0.000004 seconds to compile in C 
-This took 0.000002 seconds to compile in C 
-Time of execution in C 2.879288911819458
-Time of execution in python 0.04958796501159668
+Time of execution in C 0.00023603439331054688
+Time of execution in python 0.40343809127807617
 
 This simple program helps to understand why compiling on a low level language like C improves the execution speed of python programs
 ```
